@@ -62,3 +62,6 @@ git rebase —continue
 rebase后可能会出现head指针分离状态，解决方案请见：
 https://blog.csdn.net/qq_32907195/article/details/109217034
 ```
+
+### git log —oneline
+查看当前分支的最近commit，每条commit以一行显示，可通过⬆️⬇️⬅️➡️回车键、q控制日志显示
