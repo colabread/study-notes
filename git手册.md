@@ -54,4 +54,11 @@ git config user.email [email]
 修改commit的提交信息（reword r）
 合并commit到上一个commit（squash s）
 丢弃commit（drop d）
+
+如果rebase中出现冲突，则手动合并，结束后：
+git add .
+git rebase —continue
+
+rebase后可能会出现head指针分离状态，解决方案请见：
+https://blog.csdn.net/qq_32907195/article/details/109217034
 ```
