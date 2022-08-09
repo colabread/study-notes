@@ -65,3 +65,22 @@ https://blog.csdn.net/qq_32907195/article/details/109217034
 
 ### git log —oneline
 查看当前分支的最近commit，每条commit以一行显示，可通过⬆️⬇️⬅️➡️回车键、q控制日志显示
+
+### git restore --staged [filepath]
+将指定文件从暂存区退回到工作区
+
+### git stash
+将当前工作区的所有修改剪切到临时栈
+https://www.git-tower.com/learn/git/ebook/cn/command-line/branching-merging/stashing
+
+### git stash list
+查看stash栈
+
+### git stash pop
+将最新的stash剪切到工作区
+
+### git stash apply [stashname]
+将指定的stash复制到工作区
+  
+### git stash drop [stashname]
+删除指定stash
