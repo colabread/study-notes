@@ -70,17 +70,18 @@ https://blog.csdn.net/qq_32907195/article/details/109217034
 将指定文件从暂存区退回到工作区
 
 ### git stash
++ https://www.git-tower.com/learn/git/ebook/cn/command-line/branching-merging/stashing
+1. git stash
 将当前工作区的所有修改剪切到临时栈
-https://www.git-tower.com/learn/git/ebook/cn/command-line/branching-merging/stashing
 
-### git stash list
+2. git stash list
 查看stash栈
 
-### git stash pop
+3. git stash pop
 将最新的stash剪切到工作区
 
-### git stash apply [stashname]
+4. git stash apply [stashname]
 将指定的stash复制到工作区
   
-### git stash drop [stashname]
+5. git stash drop [stashname]
 删除指定stash
